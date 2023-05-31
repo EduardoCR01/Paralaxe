@@ -8,51 +8,8 @@
     --fonte03:'Sriracha', cursive
 }
 
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
-header {
-    background-image:linear-gradient(to bottom, #6229CC, #31299B ) ;
-    padding-top: 50px;
-    text-align: center;
-    min-height: 150px;
-    font-family: var(--fonte01);
-    font-size: 2em;
-   
-}
-
-section {
-    background-color: white;
-    color: black;
-    font-family: var(--fonte03);
-    line-height: 2em;
-    padding: 20px;
-    background-attachment: fixed;
-}
-
-section.imgagem {
-    background-color: darkgrey;
-}
-
-section.imagem > p {
-    display: inline-block;
-    background-color: rgba(44, 44, 44, 0.616);
-    width: 300px;
-}
-
-section#img01 {
-  background-image: url(../imagem/a-book-g65b3f16e2_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-section#img02 {
- background-image: url(../imagem/typewriter-g788b19a60_1280.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center center;
-}
