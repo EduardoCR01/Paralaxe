@@ -51,7 +51,7 @@ section {
 
 section.imagem {
     background-color: darkgray;
-    color: black;
+    color: rgb(12, 12, 12);
 }
 
 section.imagem > h3 {
