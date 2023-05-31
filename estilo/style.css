@@ -13,3 +13,68 @@
     padding: 0px;
 }
 
+header {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte01);
+    font-size: 3.5em;
+}
+
+header > a {
+    font-family: var(--fonte02);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255)    ;
+}
+
+header > a:hover {
+   color: rgb(99, 99, 99);
+}
+
+section {
+    font-family: var(--fonte03);
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 20px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    background-attachment: fixed;
+}
+
+section.imagem {
+    background-color: darkgray;
+    color: black;
+}
+
+section.imagem > h3 {
+    color: white;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(51, 50, 50, 0.76);
+    padding: 10px;
+    color: white    ;
+}
+
+section#img01 {
+    background-image: url(../imagem/a-book-g65b3f16e2_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagem/typewriter-g788b19a60_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
